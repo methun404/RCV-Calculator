@@ -85,8 +85,8 @@ RCCCalculator/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/RCVCalculator.git
-   cd RCVCalculator
+   git clone https://github.com/methun404/RCV-Calculator.git
+   cd RCV-Calculator
    ```
 
 2. **Open in Android Studio:**

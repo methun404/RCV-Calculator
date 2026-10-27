@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu_Page"
+    android:forceDarkAllowed="false"
+    >
+
+
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/tbx"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fcbf04"
+        android:orientation="horizontal"
+        android:forceDarkAllowed="false">
+
+        <ImageView
+            android:id="@+id/icn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/resigstor_icon"
+            android:contentDescription="TODO"
+            android:forceDarkAllowed="false"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/icn"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#60281a"
+            android:forceDarkAllowed="false"/>
+
+        <ImageView
+            android:onClick="dialog"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/more_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_feedback_24"
+            android:forceDarkAllowed="false"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tbx"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bg_home"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:forceDarkAllowed="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_weight="1"
+            android:forceDarkAllowed="false">
+
+            <RelativeLayout
+                android:id="@+id/c2v"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="100dp"
+                android:forceDarkAllowed="false">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/c2v_icon"
+                    android:forceDarkAllowed="false"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:forceDarkAllowed="false">
+
+            <RelativeLayout
+                android:id="@+id/v2c"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:forceDarkAllowed="false">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/v2c_icon"
+                    android:forceDarkAllowed="false"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

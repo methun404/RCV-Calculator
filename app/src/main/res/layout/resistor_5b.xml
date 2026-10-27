@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="6"
+    android:gravity="center_vertical"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#685F5F" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/star_reduse"
+            tools:ignore="NestedWeights" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:id="@+id/first_5b"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#307DDA" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_marginEnd="-1dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/end_reduse"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="2"
+        android:weightSum="8">
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/res_body"
+            tools:ignore="NestedWeights" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:id="@+id/second_5b"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D81229" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/res_body" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:id="@+id/third_5b"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D81229" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/res_body" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:id="@+id/multiple_5b"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D81229" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/res_body" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_marginStart="-1dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/star_reduse"
+            tools:ignore="NestedWeights" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:id="@+id/tolarence_5b"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#307DDA" />
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/end_reduse" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <View
+            android:forceDarkAllowed="false"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#685F5F" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/av"  android:title="Value to Color"/>
+    <item android:id="@+id/st"  android:title="Share"/>
+    <item android:id="@+id/fq" android:title="Feedback"/>
+    <item android:id="@+id/exit2" android:title="Exit"/>
+
+</menu>
